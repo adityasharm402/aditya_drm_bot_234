@@ -3,18 +3,18 @@
 import os
 from os import environ
 
-API_ID = int(environ.get("API_ID", "20527556"))
-API_HASH = environ.get("API_HASH", "85d84f730c4e2f13bdf3efbce7d3352e")
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+API_ID = int(environ.get("API_ID", "22483159"))
+API_HASH = environ.get("API_HASH", "0a6013ef01cc98c87f94500a59ecd777")
+BOT_TOKEN = environ.get("BOT_TOKEN", "8173008279:AAHJpQsVOeM_cAvPcYjC0RUsUVHEIDGx9FI")
 
-OWNER = int(environ.get("OWNER", "8349653190"))
-CREDIT = environ.get("CREDIT", "TUC")
+OWNER = int(environ.get("OWNER", "8291961348"))
+CREDIT = environ.get("CREDIT", "@Genius_Hub_Official_01⚡")
 cookies_file_path = os.getenv("cookies_file_path", "youtube_cookies.txt")
 
-TOTAL_USER = os.environ.get('TOTAL_USERS', '8349653190').split(',')
+TOTAL_USER = os.environ.get('TOTAL_USERS', '8291961348').split(',')
 TOTAL_USERS = [int(user_id) for user_id in TOTAL_USER]
 
-AUTH_USER = os.environ.get('AUTH_USERS', '8349653190').split(',')
+AUTH_USER = os.environ.get('AUTH_USERS', '8291961348').split(',')
 AUTH_USERS = [int(user_id) for user_id in AUTH_USER]
 if int(OWNER) not in AUTH_USERS:
     AUTH_USERS.append(int(OWNER))
